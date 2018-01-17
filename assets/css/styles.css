@@ -117,16 +117,19 @@ iframe {
 }
 */
 
+/* Not needed when using detect_on: 'canvas' in particles.js" */
 canvas {
     display:block;
     /*background: rgb(33,36,50);*/
     position: fixed;
+	
 }
 
 #particles-js {
   position: absolute;
   width: 100%;
   height: 100%;
+  z-index: -1;
   /*background: {
       image: url(https://marcbruederlin.github.io/particles.js/img/background.jpg);
       position: bottom;
