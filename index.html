@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Responsive HTML5 Website Landing Page for Developers">
     <meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
-    <link rel="shortcut icon" href="favicon.ico">  
+    <link rel="shortcut icon" href="newfav.ico">  
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> 
     <!-- Global CSS -->
@@ -31,15 +31,14 @@
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->	
-    
+    <![endif]-->		
 </head> 
 
 <body>
     <!-- ******HEADER****** --> 
     <header class="header">
         <div class="container">                       
-            <img class="profile-image img-responsive pull-left" src="assets/images/profile.png" alt="James Lee" />
+            <img class="profile-image img-responsive pull-left" src="assets/images/profile_cv_round_2.png" alt="James Lee" />
             <div class="profile-content pull-left">
                 <h1 class="name">Miguel García</h1>
                 <h2 class="desc">Software Engineering Student</h2>   
@@ -53,9 +52,8 @@
             </div><!--//profile-->
             <a class="btn btn-cta-primary pull-right" href="mailto:grcmiguel@outlook.com" target="_blank"><i class="fa fa-paper-plane"></i> Contact Me</a>              
         </div><!--//container-->
-			<div id="particles-js"></div>
     </header><!--//header-->
-    
+		    	<div id="particles-js"></div>
     <div class="container sections-wrapper">
         <div class="row">
             <div class="primary col-md-8 col-sm-12 col-xs-12">
@@ -489,11 +487,238 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fetch/0.10.1/fetch.min.js"></script>
     <script type="text/javascript" src="assets/plugins/github-calendar/dist/github-calendar.min.js"></script>
     <!-- github activity plugin -->
-    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
     <script type="text/javascript" src="assets/plugins/github-activity/src/github-activity.js"></script>
     <!-- custom js -->
     <script type="text/javascript" src="assets/js/main.js"></script> 
-			<script type="text/javascript" src="assets/js/particles.js"></script> 
+	
+	<!-- particles.js -->
+	<script type="text/javascript" src="assets/js/particles.js"></script> 
+	<script type="text/javascript">
+		var color = /*'#75A5B7'*/ '#FFFFFF';
+		var maxParticles = 80;
+		var json = {
+			'particles': {
+				'number': {
+				  'value': maxParticles,
+				  'density': {
+					'enable': true,
+					'value_area': (maxParticles * 10) * 2
+				  }
+				},
+				'color': {
+				  'value': color
+				},
+				'shape': {
+				  'type': 'circle',
+				  'stroke': {
+					'width': 0,
+					'color': '#000000'
+				  },
+				  'polygon': {
+					'nb_sides': 5
+				  },
+				},
+				'opacity': {
+				  'value': 0.8,
+				  'random': false,
+				  'anim': {
+					'enable': false,
+					'speed': 1,
+					'opacity_min': 0.1,
+					'sync': false
+				  }
+				},
+				'size': {
+				  'value': 1,
+				  'random': true,
+				  'anim': {
+					'enable': false,
+					'speed': 40,
+					'size_min': 0.1,
+					'sync': false
+				  }
+				},
+				'line_linked': {
+				  'enable': true,
+				  'distance': 150,
+				  'color': color,
+				  'opacity': 1,
+				  'width': 1
+				},
+				'move': {
+				  'enable': true,
+				  'speed': 2,
+				  'direction': 'none',
+				  'random': false,
+				  'straight': false,
+				  'out_mode': 'out',
+				  'bounce': false,
+				  'attract': {
+					'enable': false,
+					'rotateX': 600,
+					'rotateY': 1200
+				  }
+				}
+			  },
+			  'interactivity': {
+				'detect_on': 'canvas',
+				'events': {
+				  'onhover': {
+					'enable': true,
+					'mode': 'grab'
+				  },
+				  'onclick': {
+					'enable': true,
+					'mode': 'push'
+				  },
+				  'resize': true
+				},
+				'modes': {
+				  'grab': {
+					'distance': 140,
+					'line_linked': {
+					  'opacity': 1
+					}
+				  },
+				  'bubble': {
+					'distance': 400,
+					'size': 40,
+					'duration': 2,
+					'opacity': 8,
+					'speed': 3
+				  },
+				  'repulse': {
+					'distance': 200,
+					'duration': 0.4
+				  },
+				  'push': {
+					'particles_nb': 4
+				  },
+				  'remove': {
+					'particles_nb': 2
+				  }
+				}
+			  },
+			  'retina_detect': true
+		};
+		var json2 = {
+			"particles": {
+			"number": {
+			  "value": 80,
+			  "density": {
+				"enable": true,
+				"value_area": 800
+			  }
+			},
+			 "color": {
+			  "value": ["#9C27B0", "#2196F3", "#4CAF50", "#FFEB3B", "#FF9800", "#E91E63"]
+
+			},
+			"shape": {
+			  "type": "circle",
+			  "stroke": {
+				"width": 0,
+				"color": "#000000"
+			  },
+			  "polygon": {
+				"nb_sides": 15
+			  },
+			  "image": {
+				"src": "img/github.svg",
+				"width": 100,
+				"height": 100
+			  }
+			},
+			"opacity": {
+			  "value": 0.87,
+			  "random": false,
+			  "anim": {
+				"enable": false,
+				"speed": 1,
+				"opacity_min": 0.15,
+				"sync": false
+			  }
+			},
+			"size": {
+			  "value": 3,
+			  "random": false,
+			  "anim": {
+				"enable": true,
+				"speed": 2,
+				"size_min": 1.5,
+				"sync": false
+			  }
+			},
+			"line_linked": {
+			  "enable": false,
+			  "distance": 100,
+			  "color": "#e0e0e0",
+			  "opacity": 1,
+			  "width": 1.2
+			},
+			"move": {
+			  "enable": true,
+			  "speed": 4,
+			  "direction": "none",
+			  "random": true,
+			  "straight": false,
+			  "out_mode": "out",
+			  "bounce": false,
+			  "attract": {
+				"enable": false,
+				"rotateX": 600,
+				"rotateY": 1200
+			  }
+			}
+			},
+			"interactivity": {
+			"detect_on": "canvas",
+			"events": {
+			  "onhover": {
+				"enable": true,
+				"mode": "bubble"
+			  },
+			  "onclick": {
+				"enable": true,
+				"mode": "push"
+			  },
+			  "resize": true
+			},
+			"modes": {
+			  "grab": {
+				"distance": 100,
+				"line_linked": {
+				  "opacity": 1
+				}
+			  },
+			  "bubble": {
+				"distance": 30,
+				"size": 10,
+				"duration": 5,
+				"opacity": 1,
+				"speed": 1
+			  },
+			  "repulse": {
+				"distance": 50,
+				"duration": 0.4
+			  },
+			  "push": {
+				"particles_nb": 4
+			  },
+			  "remove": {
+				"particles_nb": 2
+			  }
+			}
+			},
+			"retina_detect": true
+		};
+		var jsonUri = "data:text/plain;base64,"+window.btoa(JSON.stringify(json2));
+		particlesJS.load('particles-js', jsonUri, function() {
+			console.log('callback - particles.js config loaded');
+		});
+	</script>
+			
 </body>
 </html> 
 
