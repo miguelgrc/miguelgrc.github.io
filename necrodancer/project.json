@@ -1,0 +1,30 @@
+{
+    "project_type": "javascript",
+
+    "debugMode" : 1,
+    "showFPS" : true,
+    "frameRate" : 60,
+    "id" : "gameCanvas",
+    "renderMode" : 1,
+    "engineDir":"frameworks/cocos2d-html5",
+
+    "modules" : ["cocos2d","chipmunk"],
+
+    "jsList" : [
+        "src/resource.js",
+        "src/app.js",
+        "src/GameScene.js",
+        "src/Caballero.js",
+
+        "src/Moneda.js",
+        "src/ControlesLayer.js",
+        "src/FinMapa.js",
+        "src/Enemigo.js",
+        "src/Armadura.js",
+        "src/Latigo.js",
+        "src/EspadaLarga.js",
+        "src/Bomba.js",
+        "src/Comida.js",
+        "src/Destruible.js"
+    ]
+}

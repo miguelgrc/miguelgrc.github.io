@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="16" height="16" tilewidth="24" tileheight="24" nextobjectid="10">
+ <tileset firstgid="1" name="zone3_floorB" tilewidth="24" tileheight="24" tilecount="6" columns="3">
+  <image source="zone3_floorB.png" width="78" height="52"/>
+ </tileset>
+ <tileset firstgid="7" name="wall_dirt_zone3cold_diamond4" tilewidth="24" tileheight="24" tilecount="6" columns="3">
+  <image source="wall_dirt_zone3cold_diamond4.png" width="72" height="48"/>
+ </tileset>
+ <layer name="suelo" width="16" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjZGBgYKQQswIxGxJNqn42NDNGmv2sSPaSY/8oHrmYUgAAQpUBVw==
+  </data>
+ </layer>
+ <layer name="bordesparedes" width="16" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAccJGJaQVoafYoGAWDCZCb92AYADWuATc=
+  </data>
+ </layer>
+ <layer name="paredes" width="16" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjZ2BgYAdiTihNCHNgEUMH2MSwAVz6OSjUTyyg1P2wMMMmTqz92MKT0vAjFgwG/cSGFTYACztK7B8M+pExJwNpeZFSAAA3oAHn
+  </data>
+ </layer>
+ <objectgroup name="limites">
+  <object id="1" x="23.8182" y="23.2727">
+   <polyline points="0,0 96.5568,-0.0227273 96.5568,48.3523 120.057,48.3523 119.807,0.352273 336.432,0.602273 336.307,313.602"/>
+  </object>
+  <object id="2" x="360.125" y="336.25">
+   <polyline points="0,0 -336.375,0 -336.125,-168.625 -216.25,-168.5 -216.25,-240 -239.875,-240.125 -239.875,-191.875 -336.375,-191.875 -336.5,-312.875"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="finmapa">
+  <object id="3" x="300.136" y="281.773" width="20" height="18"/>
+ </objectgroup>
+ <objectgroup name="enemigosslimeazul">
+  <object id="4" x="228.125" y="75.75" width="8" height="8"/>
+  <object id="5" x="84.125" y="267.875" width="8" height="8"/>
+ </objectgroup>
+ <objectgroup name="enemigosharpy">
+  <object id="6" x="204.292" y="195.708" width="8" height="8"/>
+ </objectgroup>
+ <objectgroup name="armaduras">
+  <object id="7" x="84.1345" y="123.966" width="8" height="8"/>
+ </objectgroup>
+ <objectgroup name="latigos">
+  <object id="8" x="324.182" y="99.8636" width="8" height="8"/>
+ </objectgroup>
+ <objectgroup name="espadaslargas"/>
+ <objectgroup name="destruibles">
+  <object id="9" x="132.095" y="66.9466" width="20" height="18"/>
+ </objectgroup>
+</map>
